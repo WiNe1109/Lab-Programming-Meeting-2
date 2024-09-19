@@ -1,4 +1,3 @@
-
 all:
 	g++ -o Problem2 Problem2.cpp
 
