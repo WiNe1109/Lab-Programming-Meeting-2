@@ -1,22 +1,70 @@
-Problem 1: 
+Problem 3: Payslip calculation 
 Case 1... 
 Input: Kafka Hibino
-       Rp200.000.000
-       Rp2.000.000
-       Rp2.000.000
+       Rp200000000
+       Rp2000000
+       Rp2000000
 Output:   Name: Kafka Hibino
-          Gross Salary: Rp200.000.000
-          Tax (20%): Rp40.000.000
-          installment: Rp2.000.000
-          Insurance: Rp2.000.000
-Net Salary = Rp156.000.000
+          Gross Salary: Rp200000000
+          Tax (20%): Rp40000000
+          installment: Rp2000000
+          Insurance: Rp2000000
+Net Salary = Rp156000000
 
 Case 2...
 Input: Ashino Mina
-       Rp50.000.000
-       Rp10.000.000
-       Rp1.000.000
-       Rp1.000.000
+       Rp50000000
+       Rp10000000
+       Rp1000000
+       Rp1000000
 Output: Name: Ashiro Mina
-        Gross Salary: Rp50.000.000
-        Tax
+        Gross Salary: Rp50000000
+        Tax(20%): Rp10000000
+        Installment: Rp1000000
+        Insurance: Rp1000000
+Net Salary = Rp38000000
+
+Case 3...
+Input: George Pole
+       5000000
+       1000000
+       200000
+       300000
+Output: Name: George Pole
+        Gross Salary: Rp5000000
+        Tax(20%): Rp1000000
+        Installment: Rp200000
+        Insurance: Rp300000
+
+Problem 3: Quadratic Equation
+Case 1: If discriminant > 0
+Input: 2
+       10
+       2
+Output: 
+The discrimination is: 84
+The roots are real and different.
+x1: 0
+x2: -1
+
+Case 2: If discriminant == 0
+Input: 2
+       4
+       2
+Output:
+The discrimination is: 0
+The root is real and repeated
+Root: -1
+
+Case 3: If discriminant < 0
+Input: 20
+       4
+       2
+Output: 
+The discriminant is: -144
+There are no real roots (the roots are complex)
+
+
+
+
+
