@@ -1,1 +1,7 @@
-
+Problem 1: 
+Case 1... Name: Kafka Hibino
+          Gross Salary: Rp200.000.000
+          Tax (20%): Rp40.000.000
+          installment: Rp2.000.000
+          Insurance: Rp2.000.000
+Output: Net Salary
