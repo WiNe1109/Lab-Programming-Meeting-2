@@ -19,8 +19,8 @@ problem1Test.o: problem1Test.cpp
 	g++ -c problem1Test.cpp -o problem1Test.o
 
 # Target to run the Test program
-test: problem1Test
-	./problem1Test.exe
+test: maketest
+	./maketest.exe
 
 # Target to clean up compiled files
 clean:
