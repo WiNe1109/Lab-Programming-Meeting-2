@@ -5,15 +5,15 @@ int main()
 {
     int n, largestnumber, secondlargest, number;
     
-    cout<<"Enter number of elements in a list: ";
-    cin>>4;
+    
+    n=4;
     
     if(n<2)
     {
-        cout<<"Require 2 or more values to find the second largest";
+        
     }else{
-        cout<<"Enter "<<n<<" numbers: ";
-        cin>>70 40 60 90;
+        
+        number=70; 40; 60; 90;
         
         for(int i = 1; i<n;i++)
         {
@@ -26,6 +26,6 @@ int main()
             }
             }
             }
-            cout<<"The second largest number is: "<<secondlargest;
+            cout<<"The second largest number is: "<<secondlargest<<endl;
             cout<<"Test Succesful!";
         }
