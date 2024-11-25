@@ -14,6 +14,7 @@ int main()
         cout<<"Enter "<<n<<" numbers: ";
         cin>>maxnumber;
         for(int i = 0; i<n; i++)
+        number;
         {
             if(number > maxnumber)
             {
