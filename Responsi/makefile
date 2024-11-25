@@ -1,27 +1,26 @@
-MaxNumber: MaxNumber.o
-	g++ MaxNumber.o -o MaxNumber.exe
+SecondLargest: SecondLargest.o
+	g++ SecondLargest.o -o SecondLargest.exe
 
 # Target to compile the C++ program
-MaxNumber.o: MaxNumber.cpp
-	g++ -c MaxNumber.cpp -o MaxNumber.o
+SecondLargest.o: SecondLargest.cpp
+	g++ -c SecondLargest.cpp -o SecondLargest.o
 
 # Target to run the program (interactively)
-run: MaxNumber
-	./MaxNumber.exe
+run: SecondLargest
+	./SecondLargest.exe
 
 # Target to compile the object Test file
-MaxNumberTest: MaxNumberTest.o
-	g++ MaxNumberTest.o -o MaxNumberTest.exe
+SecondLargestTest: SecondLargestTest.o
+	g++ SecondLargestTest.o -o SecondLargestTest.exe
 
 # Target to compile the C++ Test program
-MaxNumberTest.o: MaxNumberTest.cpp
-	g++ -c MaxNumberTest.cpp -o MaxNumberTest.o
+SecondLargestTest.o: SecondLargestTest.cpp
+	g++ -c SecondLargestTest.cpp -o SecondLargestTest.o
 
 # Target to run the Test program
-test: MaxNumberTest
-	./MaxNumberTest.exe
+test: SecondLargestTest
+	./SecondLargestTest.exe
 
 # Target to clean up compiled files
 clean:
-	rm -f MaxNumber.o MaxNumberTest.o MaxNumber.exe MaxNumberTest.exe
-
+	rm -f SecondLargest.o SecondLargestTest.o SecondLargest.exe SecondLargestTest.exe
